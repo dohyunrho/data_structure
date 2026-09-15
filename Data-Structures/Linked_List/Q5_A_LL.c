@@ -102,11 +102,11 @@ int main()
 
 void frontBackSplitLinkedList(LinkedList *ll, LinkedList *resultFrontList, LinkedList *resultBackList)
 {
-    int fixsize;
-    int frontSize;
-    int backSize;
-    int value;
-    int i;
+    int fixsize; // 전체 길이
+    int frontSize; // 앞 길이
+    int backSize; // 뒤 길이
+    int value; // 값
+    int i; // 순회할 때 각 값
 
     if (ll == NULL || ll->head == NULL || resultFrontList == NULL || resultBackList == NULL)
     {
